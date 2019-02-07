@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-mongoose.connect("mongodb://localhost/??????", { useNewUrlParser: true });
+mongoose.connect("mongodb://localhost/googlebooks", { useNewUrlParser: true });
 
 // Define API routes here
 
