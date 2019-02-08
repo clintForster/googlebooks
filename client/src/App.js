@@ -6,7 +6,7 @@ import Saved from "./components/pages/Saved.js";
 const App = () => (
     <Router>
         <div>
-            <Route exact path="/Search" component={Search} />
+            <Route exact path="/" component={Search} />
             <Route exact path="/Saved" component={Saved} />
         </div>
     </Router>

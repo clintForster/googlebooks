@@ -7,8 +7,8 @@ function BookSearch(props) {
             <form>
                 <h3>Book Search</h3>
                 <p>Book</p>
-                <input type="text" name="book"></input>
-                <input type="submit" value="Submit"></input>
+                <input id="book" onChange={props.handleInputChange} type="text" name="search"></input>
+                <input onClick={props.handleFormSubmit} type="submit" value="Submit"></input>
             </form>
         </div>
     );
